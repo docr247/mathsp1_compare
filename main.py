@@ -15,6 +15,23 @@ div.stButton > button:hover {
     }
 </style>""", unsafe_allow_html=True)
 
+# Add some Streamlit components here...
+
+# Set the height of the body and html tags to 100%
+st.markdown(
+    """
+    <style>
+    body {
+        height: 100%;
+    }
+    html {
+        height: 100%;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 num1 = 7
 num2 = 2
 
